@@ -24,15 +24,15 @@ const displayQuestions = () => {
             name: 'projectDescription',
             message: 'please write a short description of your project?',
         }, {
-            type: 'input',
+            type: 'list',
             name: 'license',
             message: 'What kind of license should your project have?',
             choices: [
-                'Mit',
-                'Apache 2.0',
-                'GPL 3.0',
-                'BSD 3',
-                'none'
+                'MIT',
+                'APACHE2.0',
+                'GPL3.0',
+                'BSD3',
+                'None'
             ]
         }, {
             type: 'input',
@@ -56,46 +56,47 @@ const displayQuestions = () => {
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
 
-const generateReadme = ({ username, email, projectName, projectDescription, license, installDependencies, runTests, repoUsage, contribution }) =>
-    `
-    # ${projectName}
-    ![Github liscense](${username}) 
-    ${email}
+const generateReadme = ({ username, email, projectName, projectDescription, license, installDependencies, runTests, repoUsage, contribution }) => `
+# ${projectName}
+![Github license](https://img.shields.io/badge/license-${license}-red.svg) 
 
+## Description 
+${projectDescription}
 
-    ## Description 
-    ${projectDescription}
+## Table of contents 
 
-    ## table of contents 
+* [installation](#installation)
+* [usage](#usage)
+* [license](#license)
+* [contributing](#contributing)
+* [tests](#tests)
+* [questions](#questions)
 
-    *  [installation] (#installation)
-    *  [usage] (#usage)
-    *  [license](#license)
-    *  [contributing] (#contributing)
-    *  [tests] (#tests)
-    * [questions] (#questions)
-    
-    ## installation
+## Installation
 
-    to install necessary dependencies, run the following commands:
-    ${installDependencies}
+to install necessary dependencies, run the following command:
 
-    ## Usage:
-    ${repoUsage}
+\`\`\`
+${installDependencies}
+\`\`\`
 
-    ## License:
-    ${license}
+## Usage:
+${repoUsage}
 
-    ## Contributing:
-    ${contribution}
+## Contributing:
+${contribution}
 
-    ## Tests:
-    ${runTests}
+## Tests:
+\`\`\`
+${runTests}
+\`\`\`
 
+## Questions: 
 
-    
-    
-    `;
+If you have any questions about this repo, open an issue or contact me directly at ${email}.
+You can find more info about me at [${username}](https://github.com/${username}).
+`;
+
 // TODO: Create a function to initialize app
 const init = () => {
     displayQuestions()
