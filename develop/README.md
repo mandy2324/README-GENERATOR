@@ -1,9 +1,9 @@
 
-# project
-![Github license](https://img.shields.io/badge/license-BSD3-red.svg) 
+# readme generator
+![Github license](https://img.shields.io/badge/license-MIT-red.svg) 
 
 ## Description 
-desc
+it generates a README.md file
 
 ## Table of contents 
 
@@ -19,21 +19,21 @@ desc
 to install necessary dependencies, run the following command:
 
 ```
-install
+none
 ```
 
 ## Usage:
-repo
+it helps a user to generate file
 
 ## Contributing:
-contribute
+description
 
 ## Tests:
 ```
-command 
+jest
 ```
 
 ## Questions: 
 
-If you have any questions about this repo, open an issue or contact me directly at add email.
-You can find more info about me at [name](https://github.com/name).
+If you have any questions about this repo, open an issue or contact me directly at m23saini@gmail.com.
+You can find more info about me at [mandy2324](https://github.com/mandy2324).

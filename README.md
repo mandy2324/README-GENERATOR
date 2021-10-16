@@ -8,7 +8,9 @@ When creating an open source project on GitHub, it’s important to have a high-
 
 Github link for my repo is  [Github link](https://github.com/mandy2324/README-GENERATOR.git).
 
+This is a walkthrough video that demonstrates the functionality of the [README generator](https://watch.screencastify.com/v/3L5V1lRMeGmNJ9q9inbm). 
 
+This is the generated readme file.[Readme file preview](https://watch.screencastify.com/v/9PgWMWENvDvIknQiRFyJ)
 
 
 ## User Story
@@ -43,3 +45,5 @@ THEN I am taken to the corresponding section of the README
 ### Walkthrough Video:
 
 * This is a walkthrough video that demonstrates the functionality of the README generator.
+
+![walkthrough video.](./images/readmeGen.mp4)
