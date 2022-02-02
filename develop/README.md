@@ -1,9 +1,9 @@
 
-# readme generator
-![Github license](https://img.shields.io/badge/license-MIT-red.svg) 
+# read me generator
+![Github license](https://img.shields.io/badge/license-GPL3.0-red.svg) 
 
 ## Description 
-it generates a README.md file
+ quickly create a professional README for a new project
 
 ## Table of contents 
 
@@ -19,18 +19,18 @@ it generates a README.md file
 to install necessary dependencies, run the following command:
 
 ```
-none
+npm 
 ```
 
 ## Usage:
-it helps a user to generate file
+none
 
 ## Contributing:
-description
+none
 
 ## Tests:
 ```
-jest
+none
 ```
 
 ## Questions: 
