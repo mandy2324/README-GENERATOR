@@ -20,7 +20,7 @@ Github link for my repo is  [here](https://github.com/mandy2324/README-GENERATOR
   ## Usage 
   Use inquirer from your command line to answer questions about your project.
   
-<img src="images/Readme.gif">
+<img src="develop/images/Readme.gif">
 <br>
 
   This is a walkthrough video that demonstrates the functionality of the README app is [here](https://watch.screencastify.com/v/HUSlWPR0xzoi68pjmery)
