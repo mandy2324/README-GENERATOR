@@ -23,7 +23,7 @@ Github link for my repo is  [here](https://github.com/mandy2324/README-GENERATOR
 <img src="develop/images/Readme.gif">
 <br>
 
-  This is a walkthrough video that demonstrates the functionality of the README app is [here](https://watch.screencastify.com/v/HUSlWPR0xzoi68pjmery)
+  This is a walkthrough video that demonstrates the functionality of the README [app](https://watch.screencastify.com/v/HUSlWPR0xzoi68pjmery)
 
 
   ## License 
